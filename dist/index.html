@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>我的简历</title>
+    <style>* {
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #eee;
+        margin: 20px 0;
+      }
+
+      article {
+        width: 21cm;
+        min-height: 29.7cm;
+        background: white;
+        margin: 0 auto;
+        overflow: auto;
+        padding: 1em;
+      }</style>
+    <style media="print">body {
+        margin: 0;
+      }
+
+      .page2 {
+        /* page-break-before: always; */
+        margin-top: 30px;
+      }
+      .uip {
+        /* padding-top: 20px; */
+      }
+      .skills > h2 {
+        /* page-break-before: always; */
+        margin-top: 20px;
+      }
+      .project {
+        page-break-before: always;
+        margin-top: 20px;
+      }
+      .big-screen {
+        page-break-before: always;
+        margin-top: 20px;
+      }</style>
+    <style>p {
+        margin: 0.3em 0;
+      }
+
+      h1 {
+        font-size: 25px;
+        margin-top: 0;
+      }
+
+      h4,
+      h5,
+      h6 {
+        font-weight: normal;
+      }
+
+      ol,
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      strong {
+        font-weight: normal;
+        color: #f60;
+      }
+
+      a {
+        color: #ea4335;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      p,
+      li {
+        color: #666;
+      }
+
+      strong {
+        font-weight: normal;
+      }
+
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+      }
+
+      .bio {
+        position: relative;
+      }
+
+      .bio img {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }</style>
+
+    <style>.projects p {
+        color: #666;
+      }
+
+      .projects strong {
+        color: #f60;
+      }
+
+      .projects > ol {
+        margin-top: 0;
+        list-style-position: inside;
+        padding: 0;
+      }
+
+      .projects > ol > li {
+        margin-bottom: 24px;
+      }
+
+      .projects > ol > li > header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .projects > ol > li h3 {
+        display: inline-block;
+      }</style>
+    <style>.oneul {
+        margin-left: -10px;
+      }
+      .oneul > li {
+        margin: 10px;
+      }
+      .big {
+        width: 100%;
+        margin-top: 20px;
+      }</style>
+    <!-- ------ -->
+    <style>#skills {
+        border: 1px solid red;
+        width: 500px;
+        height: 270px;
+      }
+      @media print {
+        #skills {
+          display: none;
+        }
+      }
+
+      .skills > .wrapper {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .skills > .wrapper > :first-child {
+        margin-right: 24px;
+      }
+
+      .skills > .wrapper > ul {
+        color: #666;
+      }
+
+      .skills > .wrapper strong {
+        color: #f60;
+      }
+
+      .skills > .wrapper > ul > li {
+        line-height: 1.2;
+        margin-bottom: 8px;
+      }</style>
+
+    <style>.dhlist .dhpc {
+        width: 78%;
+        margin-top: 20px;
+      }
+      .hdlist .dhiphone {
+        margin-left: 6px;
+        margin-top: 20px;
+      }
+      .openSource img {
+        height: 30vh;
+      }
+
+      .openSource > ul > li {
+        margin-bottom: 24px;
+      }
+
+      .openSource header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+      }</style>
+    <style>.jobs > ol > li {
+        margin: 12px 0;
+      }
+
+      .jobs header {
+        display: flex;
+        color: #666;
+        margin-bottom: 12px;
+      }
+
+      .jobs header > h3 {
+        font-size: 18px;
+        color: #333;
+      }
+
+      .jobs header > h4 {
+        margin-left: 1em;
+        font-size: 18px;
+      }
+
+      .jobs header > span {
+        font-size: 18px;
+        margin-left: auto;
+      }</style>
+
+    <style>@media (max-width: 500px) {
+        body {
+          margin: 0;
+        }
+
+        article {
+          width: auto;
+          height: auto;
+        }
+
+        .bio img {
+          display: none;
+        }
+
+        /* .skills .wrapper {
+          flex-direction: column;
+        }
+
+        #skills {
+          width: auto;
+        } */
+        .jobs header {
+          flex-direction: column;
+        }
+        .jobs header > h3,
+        .jobs header > h4,
+        .jobs header > span {
+          margin: 0;
+        }
+      }
+      .imglist > img {
+        width: 30%;
+        margin-left: 6px;
+        margin-top: 20px;
+      }
+      .uiimg {
+        width: 100%;
+      }
+      /* *img {
+        width: 100%;
+      } */
+      .pStyle {
+        display: block;
+        margin-top: 8px;
+      }</style>
+  </head>
+  <body>
+    <article>
+      <section class="bio">
+        <h1>王本爽</h1>
+        <img src="/1.106c6bd6.jpg" alt="" width="100" height="100">
+        <p>男 | 22岁 | 前端开发工程师 | 杭州</p>
+        <p>
+          手机：<a href="tel:13858768722">13858768722</a> | 微信：uglywbs99 |
+          邮箱：<a href="mailto:1134954328@qq.com">1134954328@qq.com</a>
+        </p>
+      </section>
+      <section class="education">
+        <h2>教育经历</h2>
+        <p>
+          <span><time>2017年</time>~<time>2021年</time></span>
+          济南大学泉城学院 电气工程及其自动化 本科 CET-4
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2>专业技能</h2>
+        <div class="wrapper">
+          <ul class="oneul">
+            <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong></li>
+            <li>
+              熟悉<strong>前后端分离</strong>技术，包括
+              AJAX、跨域、前端路由、Cookie、Session 等
+            </li>
+            <li>
+              熟练掌握 <strong>Vue 全家桶</strong>的使用，包括
+              VueCli、VueRouter、Vuex 等
+            </li>
+            <li>
+              了解 React 全家桶的使用，包括 create-react-app、ReactRouter、Redux
+              等
+            </li>
+            <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
+            <li>熟悉编写可复用的用户界面组件、对组件化有一定的理解</li>
+            <li>
+              了解 <strong>TypeScript</strong> 的基本使用，项目中尝试使用 TS
+              实现
+            </li>
+            <li>了解 <strong>Webpack 的配置和优化</strong></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="jobs">
+        <h2>工作经历</h2>
+        <ol>
+          <li>
+            <header>
+              <h3>浙江聚点科技有限公司</h3>
+            </header>
+            <header>
+              <h3>聚洋云 CRM 系统 | PC+钉钉小程序（uniapp）</h3>
+              <span> 2021年10月 ~ 至今 </span>
+            </header>
+            <p>项目介绍：该系统用于企业内部管理销售业务</p>
+            <p>技术栈：Vue 全家桶</p>
+            <p>主要工作：</p>
+            <p>
+              1.
+              协助重构系统中多部门销售下单核心功能模块，解决因项目初期赶进度而造成的后期需求更改引起的多文件修改问题
+            </p>
+            <p>
+              2.
+              打通系统与企业微信的关联，实现企业微信的客户管理功能，独立完成消息群发，朋友圈群发，客户迁移，自动拉群等功能
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="projects">
+        <h2>项目经历</h2>
+        <ol>
+          <li>
+            <header>
+              <h3>GOOD-UI</h3>
+              <span>
+                <a href="https://github.com/wbs99/good-ui">源码链接</a>
+                <a href="https://wbs99.github.io/good-ui-website/#/">项目预览</a>
+              </span>
+            </header>
+            <p>
+              一款完全基于 <strong>Vue3</strong> / <strong>Vite</strong> /
+              <strong>TypeScript</strong> 的简易 UI 框架。
+            </p>
+            <p>
+              目前的组件有 Switch 开关、Button 按钮、<strong>Dialog 对话框</strong>、Tabs 标签页。
+            </p>
+
+            <p>模块化的源代码，简洁明了，易于阅读。</p>
+            <p>可在线查看示例代码，并支持 PC 和手机浏览。</p>
+            <p class="uip">
+              项目过程中我对 Vue3 有了初步的研究，使用了
+              setup、onMounted、ref、computed 等 Composition API。
+            </p>
+            <!-- <img src="./images/uiimg.png" class="uiimg" /> -->
+          </li>
+          <li class="big-screen">
+            <header>
+              <h3>大屏数据可视化</h3>
+              <span>
+                <a href="https://github.com/wbs99/big-screen">源码链接</a>
+                <a href="https://wbs99.github.io/big-screen-website/index.html#/">项目预览</a>
+              </span>
+            </header>
+            <p>
+              基于 <strong>React</strong> /
+              <strong>ReactRouter</strong>
+              / <strong>Echarts</strong> 的大屏数据可视化。
+            </p>
+            <p>
+              使用了 <strong>Grid</strong> 和
+              <strong>Flex</strong> 布局，完成页面整体布局及各个模块的布局展示。
+            </p>
+            <p>
+              为了适应所有屏幕，我使用了<strong>动态 rem</strong>
+              方案，既能实现页面整体缩放时，各个模块相对适应屏幕宽度和高度，又能个性控制某些元素不被缩放。
+            </p>
+            <p>
+              使用 Echarts
+              实现柱形图、折线图、饼图、地图和表格等可视化数据展示，大部分图例都可以<strong>实时更新数据</strong>并辅以动画交互。
+            </p>
+            <p>通过这个项目，我掌握了大屏可视化项目的制作技巧。</p>
+            <!-- <img src="./images/big.png" class="big" /> -->
+          </li>
+          <li>
+            <header>
+              <h3>口袋记账</h3>
+              <span>
+                <a href="https://github.com/wbs99/Money-Vue-">源码链接</a>
+                <a href="https://wbs99.github.io/Money-Vue-website/#/money">项目预览</a>
+              </span>
+            </header>
+            <p>
+              口袋记账是一款极简的记账应用，也是一款基于
+              <strong>Vue2</strong>、<strong>VueRouter</strong>、<strong>Vuex</strong>、<strong>TypeScript</strong>
+              的单页面应用。
+            </p>
+            <p>
+              这是我从自己的需求出发，设计出的极简记账应用，特点是<strong>快速记账</strong>。
+            </p>
+            <p>
+              支持标签多选，自定义增加和删除标签，可以选择所需记账日期和时间，可以选择是否需要备注。
+            </p>
+            <p>
+              同时使用了
+              <strong>Echarts</strong>，可以通过折线图更直观地查看自己的<strong>收入和支出记录</strong>，分析自己的消费习惯。
+            </p>
+            <!-- <div class="imglist">
+              <img src="./images/money1.png" />
+              <img src="./images/money2.png" />
+              <img src="./images/money3.png" />
+            </div> -->
+          </li>
+        </ol>
+      </section>
+
+      <section class="openSource">
+        <h2>开源项目</h2>
+        <ul>
+          <li>
+            <header>
+              <h3>GOOD 导航</h3>
+              <span>
+                <a href="https://github.com/wbs99/nav-1">源码链接</a>
+                <a href="https://wbs99.github.io/nav-1/dist/index.html">项目预览</a>
+              </span>
+            </header>
+            <p>
+              这是一个个性化导航网站，可以自定义添加经常访问的网站，实现页面快速跳转。
+            </p>
+            <p>使用到了 HTML、CSS、LocalStorage、SVG</p>
+            <p>
+              使用 Flex 配合<strong>媒体查询</strong>实现 PC
+              端和移动端不同的页面布局
+            </p>
+            <p>
+              PC 端添加网站后可以通过<strong>键盘按下</strong> LOGO
+              对应的字母实现跳转
+            </p>
+            <p>若键盘上按下的字母对应多个 LOGO，默认跳转对应的第一个网站</p>
+            <!-- <div class="dhlist">
+              <img src="./images/dhPc.png" class="dhpc" />
+              <img src="./images/dhSJ.png" class="dhiphone" />
+            </div> -->
+          </li>
+          <li>
+            <header>
+              <h3>Canvas 简易画板</h3>
+              <span>
+                <a href="https://github.com/wbs99/Sketchpad-practice">源码链接</a>
+                <a href="https://wbs99.github.io/Sketchpad-practice/index.html">项目预览</a>
+              </span>
+            </header>
+            <p>
+              主要可以进行流畅的写字、简易绘画等操作，点击项目预览即可使用这个简易画板
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="others">
+        <h2>其他链接</h2>
+        <ul>
+          <li>
+            我的学习记录，<a href="https://www.yuque.com/good9">语雀</a>和<a href="https://juejin.cn/user/3043920012392119">掘金</a>，目前主要用于学习记录和项目过程记录
+          </li>
+        </ul>
+      </section>
+    </article>
+  </body>
+</html>

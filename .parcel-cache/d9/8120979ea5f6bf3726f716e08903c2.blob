@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>我的简历</title>
+    <style data-parcel-key="bccd69d8c8b8c1cea8db05157959df28">
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #eee;
+        margin: 20px 0;
+      }
+
+      article {
+        width: 21cm;
+        min-height: 29.7cm;
+        background: white;
+        margin: 0 auto;
+        overflow: auto;
+        padding: 1em;
+      }
+    </style>
+    <style media="print" data-parcel-key="1fe822a48c282846467f56fdc88c7ece">
+      body {
+        margin: 0;
+      }
+
+      .page2 {
+        page-break-before: always;
+        margin-top: 30px;
+      }
+    </style>
+    <style data-parcel-key="0d10397eb67bec2c8deebb6bd22b8d14">
+      body {
+      }
+
+      p {
+        margin: 0.3em 0;
+      }
+
+      h1 {
+        font-size: 25px;
+        margin-top: 0;
+      }
+
+      h4,
+      h5,
+      h6 {
+        font-weight: normal;
+      }
+
+      ol,
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      strong {
+        font-weight: normal;
+        color: #f60;
+      }
+
+      a {
+        color: #999;
+        text-decoration: none;
+        border-bottom: 1px solid;
+      }
+
+      p,
+      li {
+        color: #666;
+      }
+
+      strong {
+        font-weight: normal;
+      }
+
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+      }
+
+      .bio {
+        position: relative;
+      }
+
+      .bio img {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    </style>
+
+    <style data-parcel-key="ea85afc55df6b61cde44755f5d09a293">
+      .projects {
+      }
+
+      .projects p {
+        color: #666;
+      }
+
+      .projects strong {
+        color: #f60;
+      }
+
+      .projects > ol {
+        margin-top: 0;
+        list-style-position: inside;
+        padding: 0;
+      }
+
+      .projects > ol > li {
+        margin-bottom: 24px;
+      }
+
+      .projects > ol > li > header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .projects > ol > li h3 {
+        display: inline-block;
+      }
+    </style>
+    <style data-parcel-key="0aef66a49fc93d9e6d48dac25e5629b6">
+      .skills {
+      }
+
+      #skills {
+        width: 500px;
+        height: 270px;
+      }
+      @media print {
+        #skills {
+          display: none;
+        }
+      }
+
+      .skills > .wrapper {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .skills > .wrapper > :first-child {
+        margin-right: 24px;
+      }
+
+      .skills > .wrapper > #skills {
+      }
+
+      .skills > .wrapper > ul {
+        color: #666;
+      }
+
+      .skills > .wrapper strong {
+        color: #f60;
+      }
+
+      .skills > .wrapper > ul > li {
+        line-height: 1.2;
+        margin-bottom: 8px;
+      }
+    </style>
+    <style data-parcel-key="db5167bbf25b6d57f8e2cf5159eff34d">
+      .openSource {
+      }
+
+      .openSource > h2 {
+      }
+
+      .openSource header img {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      .openSource > ul {
+      }
+
+      .openSource > ul > li {
+        margin-bottom: 24px;
+      }
+
+      .openSource header {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .openSource h3 {
+      }
+    </style>
+    <style data-parcel-key="9e4a4fbafe817ff92fc009a614176af5">
+      .jobs {
+      }
+
+      .jobs > h2 {
+      }
+
+      .jobs > ol {
+      }
+
+      .jobs > ol > li {
+        margin: 12px 0;
+      }
+
+      .jobs header {
+        display: flex;
+        color: #666;
+        margin-bottom: 12px;
+      }
+
+      .jobs header > h3 {
+        font-size: 18px;
+        color: #333;
+      }
+
+      .jobs header > h4 {
+        margin-left: 1em;
+        font-size: 18px;
+      }
+
+      .jobs header > span {
+        font-size: 18px;
+        margin-left: auto;
+      }
+    </style>
+
+    <style data-parcel-key="014a704c3cb4a4406fc81c58be3031a0">
+      @media (max-width: 500px) {
+        body {
+          margin: 0;
+        }
+
+        article {
+          width: auto;
+          height: auto;
+        }
+
+        .bio img {
+          display: none;
+        }
+
+        .skills .wrapper {
+          flex-direction: column;
+        }
+
+        #skills {
+          width: auto;
+        }
+        .jobs header {
+          flex-direction: column;
+        }
+        .jobs header > h3,
+        .jobs header > h4,
+        .jobs header > span {
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <section class="bio">
+        <h1>王本爽</h1>
+        <img src="dda0cbf30c689267470d638d4c5e5dcb" alt="" width="100" height="100">
+        <p>男 | 22岁 | 前端开发工程师 | 杭州</p>
+        <p>手机：17616189908 | 微信：uglywbs99 | 邮箱：1134954328@qq.com</p>
+      </section>
+    </article>
+  </body>
+</html>
+<script src="4ad0979c663ae1096c31c630282fb70e"></script>

@@ -1,0 +1,37 @@
+.skills {
+      }
+
+      #skills {
+        width: 500px;
+        height: 270px;
+      }
+      @media print {
+        #skills {
+          display: none;
+        }
+      }
+
+      .skills > .wrapper {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .skills > .wrapper > :first-child {
+        margin-right: 24px;
+      }
+
+      .skills > .wrapper > #skills {
+      }
+
+      .skills > .wrapper > ul {
+        color: #666;
+      }
+
+      .skills > .wrapper strong {
+        color: #f60;
+      }
+
+      .skills > .wrapper > ul > li {
+        line-height: 1.2;
+        margin-bottom: 8px;
+      }
