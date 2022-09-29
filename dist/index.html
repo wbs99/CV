@@ -42,7 +42,7 @@
         margin-top: 20px;
       }
       .big-screen {
-        page-break-before: always;
+        /* page-break-before: always; */
         margin-top: 20px;
       }</style>
     <style>p {
@@ -218,6 +218,9 @@
       .jobs header > span {
         font-size: 18px;
         margin-left: auto;
+      }
+      .top{
+        padding-top: 18px;
       }</style>
 
     <style>@media (max-width: 500px) {
@@ -271,7 +274,7 @@
       <section class="bio">
         <h1>王本爽</h1>
         <img src="/1.106c6bd6.jpg" alt="" width="100" height="100">
-        <p>男 | 22岁 | 前端开发工程师 | 杭州</p>
+        <p>男 | 23岁 | 前端开发工程师</p>
         <p>
           手机：<a href="tel:13858768722">13858768722</a> | 微信：uglywbs99 |
           邮箱：<a href="mailto:1134954328@qq.com">1134954328@qq.com</a>
@@ -295,19 +298,25 @@
             </li>
             <li>
               熟练掌握 <strong>Vue2、Vue3 全家桶</strong>的使用，包括
-              VueCli、VueRouter、Vuex 等
+              VueCli、VueRouter、Vuex、Pinia 等
             </li>
             <li>
               熟悉 React 全家桶的使用，包括
               create-react-app、ReactRouter、Redux、zustand、React Hooks
             </li>
-            <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
+            <li>熟悉 <strong>ES6</strong>，包括 let / Promise / await / 析构赋值</li>
             <li>
               熟悉编写可复用的用户界面组件、对组件化有一定的理解，熟悉页面制作技巧，能将设计稿<strong>完美还原</strong>
             </li>
+             <li>
+              熟练使用 <strong>git</strong> 进行版本管理，熟练使用 Element-ui、Vant 等 PC 和 移动端组件库
+            </li>
             <li>
-              了解 <strong>TypeScript</strong> 的基本使用，了解 <strong>Webpack 的配置和优化
+              熟悉 <strong>TypeScript</strong> 的基本使用，了解 <strong>Webpack 的配置和优化
             </strong></li>
+            <li>
+              了解 <strong>Node.js</strong> ，了解 <strong>express、koa 中间件模型</strong>，了解 <strong>Next.js </strong>
+            </li>
           </ul>
         </div>
       </section>
@@ -321,11 +330,11 @@
             </header>
             <header>
               <h3>聚洋云 CRM 系统 | PC+钉钉小程序（uniapp）</h3>
-              <span> 2021年10月 ~ 至今 </span>
+              <span> 2021年10月 ~ 2022年9月 </span>
             </header>
-            <p>项目介绍：该系统用于企业内部管理销售业务</p>
-            <p>技术栈：Vue 全家桶</p>
-            <p>主要工作：</p>
+            <p>项目描述：该系统用于企业内部管理销售业务</p>
+            <p>技术栈：Vue2 + Vuex +Vue-router + Element-ui + webpack</p>
+            <p>职责：</p>
             <p>
               1.
               协助重构系统中多部门销售下单核心功能模块，解决因项目初期赶进度而造成的后期需求更改引起的多文件修改问题
@@ -351,20 +360,21 @@
                 <a href="https://wbs99.github.io/good-ui-website/#/">项目预览</a>
               </span>
             </header>
-            <p>
-              一款完全基于 <strong>Vue3</strong> / <strong>Vite</strong> /
-              <strong>TypeScript</strong> 的简易 UI 框架。
+            
+            <p>项目描述：</p>
+            <p>1. 一款完全基于 <strong>Vue3</strong> 、 <strong>Vite</strong> 、
+              <strong>TypeScript</strong> 的简易 UI 框架</p>
+            <p>2. 
+              目前实现的组件有 Switch 开关、Button 按钮、<strong>Dialog 对话框</strong>、Tabs 标签页、Calendar 日历。
             </p>
-            <p>
-              目前的组件有 Switch 开关、Button 按钮、<strong>Dialog 对话框</strong>、Tabs 标签页、Calendar 日历。
-            </p>
-
-            <p>模块化的源代码，简洁明了，易于阅读。</p>
-            <p>可在线查看示例代码，并支持 PC 和手机浏览。</p>
-            <p class="uip">
+            <p class="uip">3. 
               项目过程中我对 Vue3 有了初步的研究，使用了
               setup、onMounted、ref、computed 等 Composition API。
             </p>
+            <p class="top">技术栈： <strong>Vue3</strong> + <strong>Vite</strong> + 
+              <strong>TypeScript</strong> </p>
+            <!-- <p>模块化的源代码，简洁明了，易于阅读，可在线查看示例代码，并支持 PC 和手机浏览。</p> -->
+          
             <!-- <img src="./images/uiimg.png" class="uiimg" /> -->
           </li>
           <li class="big-screen">
@@ -375,24 +385,19 @@
                 <a href="https://wbs99.github.io/big-screen-website/index.html#/">项目预览</a>
               </span>
             </header>
+            <p>项目描述：</p>
+            <p>1. 使用 <strong>Echarts</strong> 实现的大屏数据可视化，实现柱形图、折线图、饼图、地图和表格等可视化数据展示，大部分图例都可以实时更新数据并辅以动画交互</p>
             <p>
-              基于 <strong>React</strong> /
-              <strong>ReactRouter</strong>
-              / <strong>Echarts</strong> 的大屏数据可视化。
-            </p>
-            <p>
-              使用了 <strong>Grid</strong> 和
+              2. 使用了 <strong>Grid</strong> 和
               <strong>Flex</strong> 布局，完成页面整体布局及各个模块的布局展示。
             </p>
             <p>
-              为了适应所有屏幕，我使用了<strong>动态 rem</strong>
+              3. 使用了<strong>动态 rem</strong>
               方案，既能实现页面整体缩放时，各个模块相对适应屏幕宽度和高度，又能个性控制某些元素不被缩放。
             </p>
-            <p>
-              使用 Echarts
-              实现柱形图、折线图、饼图、地图和表格等可视化数据展示，大部分图例都可以<strong>实时更新数据</strong>并辅以动画交互。
+            <p>技术栈： <strong>React</strong> + <strong>ReactRouter</strong> + 
+              <strong>Echarts</strong> 
             </p>
-            <!-- <img src="./images/big.png" class="big" /> -->
           </li>
           <li>
             <header>
@@ -402,26 +407,21 @@
                 <a href="https://wbs99.github.io/Money-Vue-website/#/money">项目预览</a>
               </span>
             </header>
-            <p>
-              口袋记账是一款极简的记账应用，也是一款基于
+            <p>项目描述：</p>
+            <p>1. 口袋记账是一款极简的记账应用，也是一款基于
               <strong>Vue2</strong>、<strong>VueRouter</strong>、<strong>Vuex</strong>、<strong>TypeScript</strong>
               的单页面应用。
             </p>
             <p>
-              这是我从自己的需求出发，设计出的极简记账应用，特点是<strong>快速记账</strong>。
+              2. 支持标签多选，自定义增加和删除标签，可以选择所需记账日期和时间，可以选择是否需要备注。
             </p>
             <p>
-              支持标签多选，自定义增加和删除标签，可以选择所需记账日期和时间，可以选择是否需要备注。
-            </p>
-            <p>
-              同时使用了
+              3. 使用
               <strong>Echarts</strong>，可以通过折线图更直观地查看自己的<strong>收入和支出记录</strong>，分析自己的消费习惯。
             </p>
-            <!-- <div class="imglist">
-              <img src="./images/money1.png" />
-              <img src="./images/money2.png" />
-              <img src="./images/money3.png" />
-            </div> -->
+             <p>技术栈： <strong>Vue2</strong> + <strong>VueRouter</strong> + 
+              <strong>Vuex</strong> +  <strong>TypeScript</strong> 
+            </p>
           </li>
         </ol>
       </section>
@@ -437,36 +437,42 @@
                 <a href="https://wbs99.github.io/nav-1/dist/index.html">项目预览</a>
               </span>
             </header>
-            <p>
-              这是一个个性化导航网站，可以自定义添加经常访问的网站，实现页面快速跳转。
+            <p>项目描述：</p>
+            <p>1. 这是一个个性化导航网站，可以自定义添加经常访问的网站，实现页面快速跳转。
             </p>
-            <p>使用到了 HTML、CSS、LocalStorage、SVG</p>
             <p>
-              使用 Flex 配合<strong>媒体查询</strong>实现 PC
+              2. 使用 Flex 配合<strong>媒体查询</strong>实现 PC
               端和移动端不同的页面布局
             </p>
             <p>
-              PC 端添加网站后可以通过<strong>键盘按下</strong> LOGO
+              3. PC 端添加网站后可以通过<strong>键盘按下</strong> LOGO
               对应的字母实现跳转
             </p>
-            <p>若键盘上按下的字母对应多个 LOGO，默认跳转对应的第一个网站</p>
-            <!-- <div class="dhlist">
-              <img src="./images/dhPc.png" class="dhpc" />
-              <img src="./images/dhSJ.png" class="dhiphone" />
-            </div> -->
+            <p>
+              4. 若键盘上按下的字母对应多个 LOGO，默认跳转对应的第一个网站
+            </p>
+             <p>技术栈： <strong>HTML</strong> + <strong>CSS</strong> + 
+              <strong>LocalStorage</strong> +  <strong>SVG</strong> 
+            </p>
           </li>
-          <li>
+          <!-- <li>
             <header>
               <h3>Canvas 简易画板</h3>
               <span>
-                <a href="https://github.com/wbs99/Sketchpad-practice">源码链接</a>
-                <a href="https://wbs99.github.io/Sketchpad-practice/index.html">项目预览</a>
+                <a href="https://github.com/wbs99/Sketchpad-practice"
+                  >源码链接</a
+                >
+                <a href="https://wbs99.github.io/Sketchpad-practice/index.html"
+                  >项目预览</a
+                >
               </span>
             </header>
-            <p>
-              主要可以进行流畅的写字、简易绘画等操作，点击项目预览即可使用这个简易画板
+            <p>项目描述：</p>
+            <p>可以进行流畅的写字、简易绘画等操作，点击项目预览即可使用鼠标进行操作。
             </p>
-          </li>
+            <p>技术栈： <strong>Canvas</strong> + <strong>JavaScript</strong> 
+            </p>
+          </li> -->
         </ul>
       </section>
 
